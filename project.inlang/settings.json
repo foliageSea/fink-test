@@ -1,8 +1,10 @@
 {
   "$schema": "https://inlang.com/schema/project-settings",
-  "baseLocale": "en",
-  "locales": [
-    "en"
-  ],
-  "modules": []
+  "baseLocale": "zh-CN",
+  "locales": ["zh-CN", "en-US"],
+  "modules": [],
+  "plugin.inlang.i18next": {
+    "pathPattern": "./translations/{languageTag}.json",
+    "variableReferencePattern": ["@:"]
+  }
 }
